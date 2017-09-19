@@ -74,7 +74,7 @@
     <Build Include="Definitions\Scripts\MovieAwards.sql" />
     <Build Include="Definitions\Scripts\MovieAwardCategory.sql" />
     <Build Include="Definitions\Scripts\AwardSubCategoryResults.sql" />
-    <Build Include="Definitions\Scripts\MovieCast.sql" />
+    <Build Include="Definitions\Scripts\Actor.sql" />
     <Build Include="Definitions\Scripts\DiscType.sql" />
     <Build Include="Definitions\Scripts\Awards.sql" />
   </ItemGroup>

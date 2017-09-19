@@ -21,4 +21,11 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="AWARD_FK" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="e285bc2d-92bb-4448-98fb-3592e4e045cd" ChangeDateTime="09/19/2017 17:44:46">
+    <Property Name="ElementName" Value="[dbo].[MovieCast].[CastName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MovieCast]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ActorName" />
+  </Operation>
 </Operations>

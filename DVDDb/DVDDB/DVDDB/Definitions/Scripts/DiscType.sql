@@ -7,3 +7,4 @@ INSERT INTO DiscType ( 'Blue-Ray' );
 INSERT INTO DiscType ( 'DVD' );
 INSERT INTO DiscType ( '4K' );
 INSERT INTO DiscType ( 'LaserDisc' );
+INSERT INTO DiscType ( 'Digital HD');

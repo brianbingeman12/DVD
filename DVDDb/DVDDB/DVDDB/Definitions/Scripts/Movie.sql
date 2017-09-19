@@ -17,5 +17,6 @@
 		BOXOFFICE DECIMAL(25,2),
 		PLOT VARCHAR(1000),
 		CriticalResponse VARCHAR(1000),
-		DiscType_FK	INT
+		DiscType_FK	INT, 
+    CONSTRAINT [PK_Movie] PRIMARY KEY ([ID])
 	)
