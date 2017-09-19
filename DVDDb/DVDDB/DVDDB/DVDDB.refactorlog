@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="861ad09b-affc-491d-b5d0-ad0201f07edf" ChangeDateTime="09/19/2017 14:38:26">
+    <Property Name="ElementName" Value="[dbo].[MOVIEAWARDS].[Country]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MOVIEAWARDS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Counttry_FK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="468323c6-01ab-445d-ab6a-29cb0872283e" ChangeDateTime="09/19/2017 14:39:10">
+    <Property Name="ElementName" Value="[dbo].[MOVIEAWARDS].[Counttry_FK]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MOVIEAWARDS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Country_FK" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="991b341e-69a2-4ba0-a740-9f7fb6344e55" ChangeDateTime="09/19/2017 14:40:09">
+    <Property Name="ElementName" Value="[dbo].[MOVIEAWARDS].[AWARD]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[MOVIEAWARDS]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AWARD_FK" />
+  </Operation>
+</Operations>
